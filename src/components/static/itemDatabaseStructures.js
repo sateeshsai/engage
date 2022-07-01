@@ -1,0 +1,70 @@
+export let itemDatabaseStructures = {
+    "Agenda": [
+        { name: "description", FieldTypeKind: 2 },
+        { name: "meetingdate", FieldTypeKind: 4 },
+        { name: "status", FieldTypeKind: 2 },
+        { name: "statusdate", FieldTypeKind: 4 },
+        { name: "facilitators", FieldTypeKind: 20 },
+        { name: "commentsmulti", FieldTypeKind: 3 },
+        { name: "commentssingle", FieldTypeKind: 2 },
+    ],
+    "Goals": [
+        { name: "description", FieldTypeKind: 2 },
+        { name: "meetingdate", FieldTypeKind: 4 },
+        { name: "status", FieldTypeKind: 2 },
+        { name: "statusdate", FieldTypeKind: 4 },
+        { name: "duedate", FieldTypeKind: 4 },
+        { name: "commentsmulti", FieldTypeKind: 3 },
+        { name: "commentssingle", FieldTypeKind: 2 },
+    ],
+    "Files": [
+        { name: "filename", FieldTypeKind: 2 },
+        { name: "fileattachment", FieldTypeKind: 2 },
+        { name: "url", FieldTypeKind: 2 },
+        { name: "description", FieldTypeKind: 2 },
+        { name: "thumbnail", FieldTypeKind: 2 },
+        { name: "commentssingle", FieldTypeKind: 2 },
+    ],
+    "Notes": [
+        { name: "privacy", FieldTypeKind: 2 },
+        { name: "Likes", FieldTypeKind: 20 },
+        { name: "Hearts", FieldTypeKind: 20 },
+    ],
+    "Polls": [
+        { name: "meetingdate", FieldTypeKind: 4 },
+        { name: "type", FieldTypeKind: 2 },
+        { name: "Options", FieldTypeKind: 2 },
+        { name: "description", FieldTypeKind: 2 },
+        { name: "voteresponse", FieldTypeKind: 2 },
+        { name: "voteresponseforid", FieldTypeKind: 2 },
+    ],
+    "Tasks": [
+        { name: "description", FieldTypeKind: 2 },
+        { name: "meetingdate", FieldTypeKind: 4 },
+        { name: "status", FieldTypeKind: 2 },
+        { name: "statusdate", FieldTypeKind: 4 },
+        { name: "assignedto", FieldTypeKind: 20 },
+        { name: "duedate", FieldTypeKind: 4 },
+        { name: "commentsmulti", FieldTypeKind: 3 },
+        { name: "commentssingle", FieldTypeKind: 2 },
+    ],
+    "Chat": [
+        { name: "description", FieldTypeKind: 2 },
+        { name: "recepient", FieldTypeKind: 20 },
+    ],
+    "whiteboards": [
+        { name: "type", FieldTypeKind: 2 },
+        { name: "brushpaths", FieldTypeKind: 2 },
+        { name: "brushtype", FieldTypeKind: 2 },
+        { name: "brushsize", FieldTypeKind: 2 },
+        { name: "brushcolor", FieldTypeKind: 2 },
+        { name: "stickyxy", FieldTypeKind: 2 },
+        { name: "stickySize", FieldTypeKind: 2 },
+        { name: "stickycolor", FieldTypeKind: 2 },
+        { name: "stickytext", FieldTypeKind: 2 },
+        { name: "stickytextcolor", FieldTypeKind: 2 },
+        { name: "emoji", FieldTypeKind: 2 },
+
+    ]
+
+}
